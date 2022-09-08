@@ -32,7 +32,6 @@ i=1
 while (fibonacci(i)<4000000):
     if (fibonacci(i) %2==0):
         sumeven = sumeven + fibonacci(i)
-        sbc = sbc + str(fibonacci(i)) + ", ";
     i=i+1
 
 print(sumeven)
